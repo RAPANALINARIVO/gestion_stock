@@ -1,0 +1,2 @@
+loging= admin
+mdp = admin
