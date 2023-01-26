@@ -258,13 +258,13 @@
     <script src="../dist/js/jquery-3.6.0.js"></script>
     <script src="../dist/js/bootstrap.bundle.js"></script>
     <script>
-        $(document).ready(function()
-        {
-            $("#btn1").click(function()
-            {
-                $("#prod").val("vary");
-            });
-        });
+        // $(document).ready(function()
+        // {
+        //     $("#btn1").click(function()
+        //     {
+        //         $("#prod").val("vary");
+        //     });
+        // });
     </script>
 
 </body>

@@ -2,17 +2,12 @@
           <?php  include "../navbar/nav.php"; ?>
                 </table  >
             </div>
-            <div class="col-lg-11 ">
-                <div class="row x">
+            <div class="col-lg-11 " style="overflow:hidden";>
+                <div class="row ">
                     <div class="col-lg-4">
                         <!-- card1 -->
                         <div class="card">
                             <div class="card-title text-center">
-                                <?php
-                                $jour=DATE("l");
-                                $mois=DATE("F");
-                                $annee=DATE("Y");
-                                ?>
                                 <h1>Total entre</h1>
                             </div>
                             <div class="card-body text-center">
@@ -44,6 +39,7 @@
                     </div>
                 </div>
              </div>
+             <!-- <center> <?php echo "nous somme le :". $jour=DATE("l")."/".$jour=DATE("F")."/".$jour=DATE("Y")?></center> -->
         </div>
     </div>
 </body>
