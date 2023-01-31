@@ -2,18 +2,16 @@
             <?php include('../navbar/nav.php')?>                
                 </table>
             </div>
-            <div class="col-lg-11 ">
-            <center> <h5>Listes des produits</h5></center>
-            <center>
-            <form class="d-flex" method="post">
-                <input class="form-control me-2" name="valeur" type="search" placeholder="veillez taper ici le produit que vous cherchiez !" aria-label="Search" required="">
-      
-                    <button class="btn btn-outline-success" name="rec" value="rechercher" type="submit">
-                   <img src="../dist/bootstrap-icons/search.svg" alt="icon_recherche">Rechercher</button>
-               
-            </form>
-            </center>
-            
+            <div class="col-lg-11 " style="overflow:hidden";>
+                <div class="row">
+                    <div class="col-2 push-right">
+                        <form class="d-flex m-2" method="post">
+                        <input class="form-control" name="valeur" type="search" placeholder="votre recherche" required="">
+                            <button class="btn btn-outline-success" name="rec" value="rechercher" type="submit">
+                        <img src="../dist/bootstrap-icons/search.svg" alt="icon_recherche"></button>
+                        </form> 
+                    </div>
+                </div>
             <table class="table table-dark table-hover table-caption-top table-align-middle table-active">
                 <!-- <caption>List des entres</caption> -->
                     <thead>

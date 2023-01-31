@@ -19,21 +19,21 @@
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="prod">Produit :</label>
-                                            <input type="text" id="prod" name="prod" class="form-control" > 
+                                            <input type="text" id="prod" name="prod" class="form-control" required> 
                                         </div>
                                         <div class="form-group">
                                             <label for="qte">Quantite :</label>
-                                            <input type="number" min="0" id="qte" name="qte" class="form-control">
+                                            <input type="number" min="0" id="qte" name="qte" class="form-control" required>
                                         </div>
                                         <div class="form-group">
                                             <label for="prix">Prix :</label>
-                                            <input type="number" min="0" id="prix" name="prix" class="form-control">
+                                            <input type="number" min="0" id="prix" name="prix" class="form-control" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="design"> Designation :</label>
-                                            <select name="design" id="design" class="form-control">
+                                            <select name="design" id="design" class="form-control" required>
                                                 <option></option>
                                                     <?php
                                                     include('../con_db/connexion.php');
@@ -49,7 +49,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="cat">categorie :</label>
-                                            <select class="form-control" name="cat" id="cat">
+                                            <select class="form-control" name="cat" id="cat"required>
                                                 <option ></option>
                                             <?php
                                                 include('../con_db/connexion.php');
@@ -64,7 +64,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="dat">Date :</label>
-                                            <input type="date" id="dat" name="dat" class="form-control">
+                                            <input type="date" id="dat" name="dat" class="form-control"required>
                                         </div>
                                     </div>
                                 </div>
@@ -251,7 +251,6 @@
                         ?>
                         </tbody>
                         </table> 
-            
             </div>
         </div>
     </div>

@@ -29,7 +29,7 @@
                     </div>
                     <!-- ///////////////////////// -->
                     <?php
-                        if( @$_GET['erreur']===true)
+                        if( @$_GET['erreur']==true)
                         {
                         ?>
                             <div class="alert-light text-danger text-center py-3"><?php echo $_GET['erreur'];?></div>
@@ -40,7 +40,7 @@
 
                     <!-- //////////////////////// -->
                     <?php
-                        if(@$_GET['invalide']===true)
+                        if(@$_GET['invalide']==true)
                         {
                         ?>
                         
@@ -49,7 +49,6 @@
                       <?php 
                         } 
                     ?>
-                    <!-- //////////////////////// -->
                     <div class="card-body">
                         <form action="login_post.php" method="post">
                             <input type="text" name="user" placeholder="Nom d'utilisateur" class="form-control mb-3" >
