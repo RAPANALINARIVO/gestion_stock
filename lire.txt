@@ -1,2 +1,5 @@
-loging= admin
+login= admin
 mdp = admin
+
+pour faire fonctionnner ce projet, vous devriez avoir un serveur local comme wamp/xamp dans votre pc. 
+Puis de creer une base de donnee dans votre serveur local sous le nom de  "gestion_stock"  
